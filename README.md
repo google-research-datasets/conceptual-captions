@@ -3,6 +3,9 @@
 Conceptual Captions is a dataset containing (image-URL, caption) pairs designed
 for the training and evaluation of machine learned image captioning systems.
 
+## Downloads
+See <http://ai.google.com/research/ConceptualCaptions> for details.
+
 ## Motivation
 
 Automatic image captioning is the task of producing a natural-language
@@ -82,7 +85,7 @@ See Table 1 below for more details.
 ## Hidden Test set
 
 We are not releasing the official test split (~22.5K examples) used to report the official results in the paper.
-Instead, we are hosting a competition (TBA) dedicated to supporting submissions and evaluations of model outputs on this blind test set.
+Instead, we are hosting a competition (see <http://ai.google.com/research/ConceptualCaptions>) dedicated to supporting submissions and evaluations of model outputs on this blind test set.
 
 We strongly believe that this setup has several advantages: a) it allows the evaluation to be done using an unbiased, large number of images b) it keeps the test completely blind and eliminate suspicions of fitting to the test, cheating, etc. c) it overall provides a clean setup for advancing the SoTA on this task, including reporting reproducible results for paper publications, etc.
 
