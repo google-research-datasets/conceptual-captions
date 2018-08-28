@@ -37,7 +37,7 @@ More details are available in this paper (please cite the paper if you use or di
 
 ## Dataset Description
 
-Conceptual Captions dataset release contains two splits: train (~3.3M examples) and validation (~28K examples).
+Conceptual Captions dataset release contains two splits: train (~3.3M examples) and validation (~16K examples).
 See Table 1 below for more details.
 
 <p align='center'>Table 1: Dataset stats.</p>
@@ -65,18 +65,18 @@ See Table 1 below for more details.
   </tr>
   <tr>
     <td>Valid</td>
-    <td>28,355</td>
-    <td>13,063</td>
-    <td>10.3</td>
-    <td>4.6</td>
+    <td>15,840</td>
+    <td>10,900</td>
+    <td>10.4</td>
+    <td>4.7</td>
     <td>9.0</td>
   </tr>
   <tr bgcolor="#808080">
     <td>Test (Hidden)</td>
-    <td>22,530</td>
-    <td>11,731</td>
-    <td>10.1</td>
-    <td>4.5</td>
+    <td>12,559</td>
+    <td>9,645</td>
+    <td>10.2</td>
+    <td>4.6</td>
     <td>9.0</td>
   </tr>
 </table>
@@ -84,7 +84,7 @@ See Table 1 below for more details.
 
 ## Hidden Test set
 
-We are not releasing the official test split (~22.5K examples) used to report the official results in the paper.
+We are not releasing the official test split (~12.5K examples).
 Instead, we are hosting a competition (see <http://ai.google.com/research/ConceptualCaptions>) dedicated to supporting submissions and evaluations of model outputs on this blind test set.
 
 We strongly believe that this setup has several advantages: a) it allows the evaluation to be done using an unbiased, large number of images b) it keeps the test completely blind and eliminate suspicions of fitting to the test, cheating, etc. c) it overall provides a clean setup for advancing the SoTA on this task, including reporting reproducible results for paper publications, etc.
@@ -104,4 +104,7 @@ The released data is provided as TSV (tab-separated values) text files with the 
 
 ## Contact us
 
-If you would like to share feedback or report concerns, please email us at conceptual-captions-contact@google.com
+If you have a technical question regarding the dataset, code or publication, please create an issue in this repository.
+This is the fastest way to reach us.
+
+If you would like to share feedback or report concerns, please email us at conceptual-captions@google.com
