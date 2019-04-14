@@ -11,7 +11,7 @@ See <http://ai.google.com/research/ConceptualCaptions> for details.
 Automatic image captioning is the task of producing a natural-language
 utterance (usually a sentence) that correctly reflects the visual content of an
 image. Up to this point, the resource most used for this task was the
-[MS-COCO dataset](http://http://cocodataset.org), containing around 120,000
+[MS-COCO dataset](http://cocodataset.org), containing around 120,000
 images and 5-way image-caption annotations (produced by paid annotators).
 
 Google's Conceptual Captions dataset has more than 3 million images, paired
