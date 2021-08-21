@@ -17,4 +17,4 @@ captions = [
 ]
 
 idx = random.randint(0, len(captions) - 1)
-print captions[idx]
+print(captions[idx])
